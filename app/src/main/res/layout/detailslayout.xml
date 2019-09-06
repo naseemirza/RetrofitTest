@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/linearL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher" />
+
+            </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/lin2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Name "
+                            android:textAllCaps="false"
+                            android:layout_weight="1"
+                            android:textColor="#000"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/nmtxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="name"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Realname "
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        android:textColor="#000" />
+
+                        <TextView
+                            android:id="@+id/rlnmtxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="realname"
+                            android:textAllCaps="false"
+                            android:textColor="#000"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Team "
+                            android:textSize="15sp"
+                            android:layout_weight="1"
+                            android:textAllCaps="false"
+                            android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/teamtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="team"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        android:textColor="#000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="First Appearance "
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        android:textColor="#000" />
+
+
+                        <TextView
+                            android:id="@+id/fatxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="fa"
+                            android:layout_weight="1"
+                            android:textSize="15sp"
+                            android:textAllCaps="false"
+                            android:textColor="#000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Created"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        android:textAllCaps="false"
+                        android:textColor="#000" />
+
+                        <TextView
+                            android:id="@+id/crtedtxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="created"
+                            android:layout_weight="1"
+                            android:textSize="15sp"
+                            android:textAllCaps="false"
+                            android:textColor="#000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Publisher"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        android:textColor="#000" />
+
+                        <TextView
+                            android:id="@+id/publshrtxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="publisher"
+                            android:layout_weight="1"
+                            android:textSize="15sp"
+                            android:textAllCaps="false"
+                            android:textColor="#000" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/biotxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bio"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
